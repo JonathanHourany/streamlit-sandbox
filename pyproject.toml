@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "streamlit-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["JonathanHourany"]
+
+[tool.poetry.dependencies]
+python = "^3.9.10"
+streamlit = "^1.5.1"
+pandas = "^1.4.1"
+numpy = "^1.22.2"
+black = "^22.1.0"
+isort = "^5.10.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
